@@ -12,10 +12,11 @@
 from numpy import *  
 import operator  
   #test git add a note
+  #test git add ignore
 # create a dataset which contains 4 samples with 2 classes  
 def createDataSet():  
     # create a matrix: each row as a sample  
-    group = array([[1.0, 0.9], [1.0, 1.0], [0.1, 0.2], [0.0, 0.1]])  
+    group = array([[1.0, 1.9], [1.0, 1.0], [0.1, 0.2], [0.0, 0.1]])  
     labels = ['A', 'A', 'B', 'B'] # four samples and two classes  
     return group, labels  
   
