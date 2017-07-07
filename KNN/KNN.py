@@ -11,7 +11,7 @@
   
 from numpy import *  
 import operator  
-  
+  #test git add a note
 # create a dataset which contains 4 samples with 2 classes  
 def createDataSet():  
     # create a matrix: each row as a sample  
