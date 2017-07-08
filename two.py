@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from KNN import * 
+from KNN import KNN 
 from numpy import *   
   
 dataSet, labels = KNN.createDataSet()  
